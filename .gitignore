@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/*
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/sdks/
+!.yarn/versions/
+
+# Builds & caches
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-static/
+coverage/
+.tmp/
+.temp/
+.cache/
+.parcel-cache/
+.turbo/
+
+# Editors & logs
+.vscode/
+.idea/
+*.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
